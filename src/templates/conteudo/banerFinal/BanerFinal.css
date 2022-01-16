@@ -1,0 +1,31 @@
+.banerFinal {
+    color: black;
+    padding-top: 5vh;
+    padding: 5vh;
+    font-weight: 100;
+    margin-top: 10vh;
+
+}
+
+.banner1 {
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    line-height: 2rem;
+    flex-wrap: wrap;
+}
+
+.banner1Text {
+    max-width: 50%;
+}
+
+.banner2 {
+    display: flex;
+    text-align: center;
+    line-height: 2rem;
+    margin-top: 10vh;
+}
+
+.banner2 img {
+    max-width: 40vw;
+}
