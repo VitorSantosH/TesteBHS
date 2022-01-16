@@ -1,0 +1,58 @@
+.header {
+    width: 100%;
+}
+
+.linhaSuperior {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2em;
+    background: #0cebeb;
+    background: -webkit-linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+    background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+}
+
+.areaCliente {
+    padding: 1vh;
+}
+.areaCliente:hover {
+    color: white;
+    background: #00bf8f;
+    background: -webkit-linear-gradient(to right, #00bf8f, #001510);
+    background: linear-gradient(to right, #00bf8f, #001510);
+}
+
+.tel {
+    padding: 1vh;
+}
+.tel:hover {
+    color: white;
+    background: #00bf8f;
+    background: -webkit-linear-gradient(to right, #00bf8f, #001510); 
+    background: linear-gradient(to right, #00bf8f, #001510);
+}
+
+.areaMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.linksMenu span {
+    padding: 2vh;
+    min-height: min-content;
+}
+
+.linksMenu span:hover {
+    color: white;
+    background: #0cebeb;
+    border-radius: 15px;
+    background: -webkit-linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+    background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+}
+
+
+@media  only screen and (max-width: 900px) {
+    .areaMenu span {
+     opacity: 0;
+    }
+  
+  }

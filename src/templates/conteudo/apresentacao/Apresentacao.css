@@ -1,0 +1,36 @@
+.apresentacao {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.imgApresentacao {
+    margin-left: 5%;
+    max-height: 45vh;
+
+}
+
+.empresaDigital {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    display: flex;
+}
+
+.text {
+    text-align: center;
+    margin-top: 8vh;
+    max-width: 40vw;
+    font-size: large;
+}
+
+@media only screen and (max-width: 900px) {
+    .text {
+        max-width: 90%;
+        margin-left: 5%;
+    }
+
+    .imgApresentacao {
+        margin-left: 5%;
+    }
+
+}
