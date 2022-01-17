@@ -37,6 +37,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 10vh;
+    font-size: .9rem;
 }
 .linksMenu span {
     padding: 2vh;
@@ -74,4 +76,4 @@
     .imgLogo{
         margin-left: 25vw;
     }
-  }
+}

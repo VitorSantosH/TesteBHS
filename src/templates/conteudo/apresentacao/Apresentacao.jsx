@@ -91,10 +91,14 @@ const Apresentacao = () => {
             </div>
 
             <div className="cases">
+                <br />
                 <h2>ALGUNS CASES</h2>
+                <br />
+                <br />
                 <div className="casesProfile">
                     <CreateCases array={cases} />
                 </div>
+                <br />
             </div>
             <div className="conhecerMais">
                 <div className="maisText">
