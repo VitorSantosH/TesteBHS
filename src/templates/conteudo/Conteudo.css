@@ -1,6 +1,7 @@
 .btn.btn-success {
     background: #38b6a5;
     border: none;
+    font-size: 1.5rem;
 }
 .btn.btn-success:hover {
     color: black;

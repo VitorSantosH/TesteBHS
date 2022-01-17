@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import './Header.css';
-
+import { Button, Dropdown, DropdownButton } from 'react-bootstrap';
 import logo from '../../assets/logo.png';
 
 
@@ -19,6 +19,24 @@ const Header = () => {
 
             </div>
             <div className="areaMenu">
+
+                <Dropdown className="menuDrop">
+                    <Dropdown.Toggle variant="Secondary'" id="dropdown-basic">
+                        <i class="fa fa-bars"></i>
+                    </Dropdown.Toggle>
+
+                    <Dropdown.Menu >
+                        <Dropdown.Item href="#/action-1">
+                            HOME
+                        </Dropdown.Item>
+                        <Dropdown.Item href="#/action-2">
+                            SOBRE NÓS
+                        </Dropdown.Item>
+                        <Dropdown.Item href="#/action-3">
+                            CASES
+                        </Dropdown.Item>
+                    </Dropdown.Menu>
+                </Dropdown>
 
                 <img src={logo} alt="" />
                 <div className="linksMenu">

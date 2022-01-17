@@ -1,6 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
-import Sobre from "../templates/Sobre";
+import {  Route, Redirect, Switch} from 'react-router-dom';
+import Sobre from "../templates/sobre/Sobre";
 
 
 import Conteudo from '../templates/conteudo/Conteudo'

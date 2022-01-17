@@ -1,0 +1,21 @@
+.sobre {
+    text-align: center;
+    margin-bottom: 20vh;
+}
+.sobreImg{
+    max-width: 45vw;
+    height: auto;
+    width: auto;
+}
+.descricao {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sobreTexto {
+    max-width: 45vw;
+    margin-top: 5vw;
+    padding: 3vw;
+    text-align: justify;
+}

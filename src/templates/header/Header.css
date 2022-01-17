@@ -1,6 +1,7 @@
 .header {
     width: 100%;
     overflow: hidden;
+    
 }
 
 .linhaSuperior {
@@ -54,10 +55,20 @@
     text-decoration: none;
     color: #001510;
 }
+.menuDrop{
+    
+    position: absolute;
+    z-index: 11;
+    left: 3em;
+    display: none;
+
+}
 
 @media  only screen and (max-width: 900px) {
     .areaMenu span {
      display: none;
     }
-  
+    .menuDrop{
+        display: block;
+    }
   }
