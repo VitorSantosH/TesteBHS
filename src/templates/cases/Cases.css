@@ -1,0 +1,13 @@
+.casesPage {
+    padding-top: 5vh;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.casesTemplate {
+    margin-top: 10vh;
+    display: flex;
+    min-height: 70vh;
+    justify-content: space-around;
+
+}
