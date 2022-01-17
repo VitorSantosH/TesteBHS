@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./ImagemPrincipal.css"
 
 
@@ -8,13 +9,14 @@ const Folder = () => {
                 <div className='imagemPrincipal'>
 
                         <div className="texto" style={{
-                                
+
                         }}>
                                 <div>
                                         <h1 >
                                                 <span >Sua empresa está preparada para a transformação digital?</span>
                                         </h1>
                                 </div>
+                                <br />
                                 <div>
                                         <h4 >
                                                 <span >
@@ -25,21 +27,21 @@ const Folder = () => {
 
                                         </h4>
                                 </div>
-                                <p>
-                                        <span>
-                                        </span>
-                                </p>
-                                <a itemprop="url" href="/contato">
-                                        Contato
-                                </a>
+                                <br />
+
+                                <button className="btn btn-success">
+                                        <Link to={"/contato"}>
+                                                Contato
+                                        </Link>
+                                </button>
                         </div>
-                        <img className="imgPrincipal"/>
+                    
 
 
                 </div >
 
 
-              
+
         )
 }
 

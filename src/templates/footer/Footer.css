@@ -1,0 +1,36 @@
+.footer{
+    height: 400px;
+    background-color: black;
+    color: whitesmoke;
+    padding-left: 5vw;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    
+}
+.links :hover {
+    color: black;
+    background-color: white;
+}
+.links{
+    font-size: 1.5em;
+    padding: 3vh;
+}
+
+.fa.fa-facebook-f {
+    margin: 1vw;
+}
+.linksAtalho {
+    text-decoration: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.atalhos{
+    align-items: center;
+    text-align: center;
+    margin-top: 5vh;
+    line-height: 1.5rem;
+}

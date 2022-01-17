@@ -15,17 +15,26 @@
     flex-wrap: wrap;
 }
 
-.banner1Text {
+.banner1Text, .banner2Text {
     max-width: 50%;
 }
 
 .banner2 {
     display: flex;
+    justify-content: space-around;
     text-align: center;
     line-height: 2rem;
     margin-top: 10vh;
+    flex-wrap: wrap;
 }
 
 .banner2 img {
     max-width: 40vw;
 }
+
+@media  only screen and (max-width: 1000px) {
+    .banner1Text, .banner2Text {
+        max-width: 90%;
+    }
+  
+  }

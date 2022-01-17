@@ -21,7 +21,7 @@ const Apresentacao = () => {
 
             <div className="empresaDigital">
 
-                <img className="imgApresentacao" src="https://25844.smushcdn.com/2134630/wp-content/uploads/2021/07/4.eps_.png?lossy=1&amp;strip=1&amp;webp=1" />
+                <img className="imgApresentacao"  src="https://25844.smushcdn.com/2134630/wp-content/uploads/2021/07/4.eps_.png?lossy=1&amp;strip=1&amp;webp=1" alt='logo' />
                 <div className="text">
                     <h4>Uma empresa digital</h4>
                     <br />

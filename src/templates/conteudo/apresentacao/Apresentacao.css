@@ -6,6 +6,9 @@
 .imgApresentacao {
     margin-left: 5%;
     max-height: 45vh;
+    max-width: 90vw;
+    height: auto;
+    width: auto;
 
 }
 

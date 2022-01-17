@@ -1,5 +1,6 @@
 .header {
     width: 100%;
+    overflow: hidden;
 }
 
 .linhaSuperior {
@@ -49,10 +50,14 @@
     background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
 }
 
+.areaMenu a {
+    text-decoration: none;
+    color: #001510;
+}
 
 @media  only screen and (max-width: 900px) {
     .areaMenu span {
-     opacity: 0;
+     display: none;
     }
   
   }

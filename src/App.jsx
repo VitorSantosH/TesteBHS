@@ -1,14 +1,20 @@
 import React from 'react';
+import { HashRouter } from 'react-router-dom'
 import Header from './templates/header/Header';
-import Conteudo from './templates/conteudo/Conteudo';
+import Routes from './routes/Routes';
+import Footer from './templates/footer/Footer';
 import './font-awesome/css/font-awesome.css'
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Conteudo/>
-   </div>
+    <HashRouter>
+      <div className="App">
+        <Header />
+        <Routes />
+        <Footer />
+      </div>
+    </HashRouter>
+
   );
 }
 

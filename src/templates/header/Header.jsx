@@ -10,45 +10,60 @@ const Header = () => {
     return (
         <div className="header">
             <div className="linhaSuperior">
-            <div className="tel">
-                <span>(31) 9 9641 6063</span>
-            </div>
-            <div className="areaCliente">
-                <span>Área Cliente</span>
-            </div>
+                <div className="tel">
+                    <span>(31) 9 9641 6063</span>
+                </div>
+                <div className="areaCliente">
+                    <span>Área Cliente</span>
+                </div>
 
             </div>
             <div className="areaMenu">
-              
+
                 <img src={logo} alt="" />
                 <div className="linksMenu">
-                    <span>
-                        HOME
-                    </span>
 
-                    <span>
-                        SOBRE NÓS
-                    </span>
+                    <Link to={"/"}>
+                        <span>
+                            HOME
+                        </span>
+                    </Link>
 
-                    <span>
-                        CASES
-                    </span>
+                    <Link to={"/sobre"}>
+                        <span>
+                            SOBRE NÓS
+                        </span>
+                    </Link >
 
-                    <span>
-                        BLOG
-                    </span>
+                    <Link to={'/cases'}>
+                        <span>
+                            CASES
+                        </span>
+                    </Link>
 
-                    <span>
-                        SOLUÇÕES
-                    </span>
+                    <Link to={"/blog"}>
+                        <span>
+                            BLOG
+                        </span>
+                    </Link>
 
-                    <span>
-                        ORÇAMENTO
-                    </span>
+                    <Link to={"/solucoes"}>
+                        <span>
+                            SOLUÇÕES
+                        </span>
+                    </Link>
 
-                    <span>
-                        CONTATO
-                    </span>
+                    <Link to={"/orcamento"}>
+                        <span>
+                            ORÇAMENTO
+                        </span>
+                    </Link>
+
+                    <Link to={"/contato"}>
+                        <span>
+                            CONTATO
+                        </span>
+                    </Link>
 
                     <span>
                         <i className="fa fa-search"></i>
@@ -56,7 +71,7 @@ const Header = () => {
 
                 </div>
             </div>
-            
+
         </div>
     )
 }
