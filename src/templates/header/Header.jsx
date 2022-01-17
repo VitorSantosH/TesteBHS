@@ -38,7 +38,7 @@ const Header = () => {
                     </Dropdown.Menu>
                 </Dropdown>
 
-                <img src={logo} alt="" />
+                <img src={logo} alt="" className="imgLogo" />
                 <div className="linksMenu">
 
                     <Link to={"/"}>
